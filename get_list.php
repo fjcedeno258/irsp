@@ -1,5 +1,5 @@
 <?php
-if($_GET['action'] == "get_dbs"){
+if($_GET['page'] == "check"){
 	echo "sucsses";
 }
 if(isset($_GET['json_name'])){
